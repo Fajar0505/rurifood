@@ -1,0 +1,936 @@
+/* TOP NAVBAR */
+    /* COLOR FOR NAVBAR TEXT */
+    .navbar-text{
+        color: rgb(255, 255, 255) !important;
+    }
+
+/* END COLOR FOR NAVBAR TEXT */
+
+
+
+/*BOTTOM NAVBAR  */
+    /* POSITION AND SIZE FOR NAVBAR */
+        .header-inner{
+            position:absolute;
+            top: 0;
+            left: 0;
+            width:100%;
+            z-index: 99;
+            background-color: transparent;
+        }
+        .header{
+            position: relative;
+            width: 100%;
+        }
+    /* END POSITION AND SIZE FOR NAVBAR */
+        .header .navbar-brand img{
+
+        }
+    /* BACKGROUND FOR BOTTOM NAVBAR AFTER SCROLL */
+    .navbar-scroll{
+        background-color: rgba(0, 0, 0,0.8);
+        padding: 0;
+        position: fixed;
+        top:0;
+        z-index: 99;
+        box-shadow:0px 1px 10px rgba(0,0,0,0.4);
+        transition-duration: 0.6s; 
+    }
+
+    /* COLOR FONT FOR NAVBAR AFTER SCROLL */
+    .navbar-scroll .navbar-nav .nav-link{
+        color: rgb(255, 255, 255) !important;
+    }
+
+    /* KIND 0F FONT AND COLOR DEFAULY OF NAVBAR */
+    .collapse .nav-link{
+        font-family: viga;
+        text-transform: uppercase;
+        font-size: 18px;
+        color: rgb(255, 255, 255) !important;
+    }
+    
+
+/*END OF BOTTOM NAVBAR  */
+
+
+
+/* TOP CAROUSEL */
+    .top-carousel{
+    margin-bottom: 1.5cm;
+    }
+    /* DEFAULT SIZE OF CAROUSEL */
+        .top-carousel .carousel-item {
+            height: 39rem;
+        }
+        .top-carousel .carousel-item > img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            height: 39rem;
+        }
+        /* .top-carousel .carousel-item > source {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            height: 39rem;
+        } */
+    /* END OF DEFAULT SIZE OF CAROUSEL */
+
+    /* FONT SIZE AND FAMILY FOR CAROUSEL */
+        .top-carousel .carousel-item h1{
+            font-family: 'Francois One', sans-serif;
+            text-transform: uppercase;
+            font-size: 60px;
+        }
+        .top-carousel .carousel-item h2{
+            font-family: 'Francois One', sans-serif;
+            text-transform: uppercase;
+            color: rgb(255, 115, 0);
+            font-size: 50px;
+        }
+    /* END FONT SIZE AND FAMILY FOR CAROUSEL */
+
+    /*FONT POSITION AND COLOR OF CAROUSEL  */
+    .top-carousel .caption { 
+        position: relative;
+        color: rgb(255, 255, 255) !important;
+        z-index: 2;
+        margin-top: 13rem;
+    }
+
+    .top-carousel .carousel-caption { 
+        z-index: 2;
+        
+    }
+
+    /* .top-carousel .carousel-caption { 
+        margin-bottom: 8rem;
+    } */
+
+    /* style for button of carousel */
+        .top-carousel .btn1{
+            border-radius: 20px;
+            background-color: white!important;
+            border: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .top-carousel .btn1:hover{
+            background-color: rgb(255, 115, 0)!important;
+            color: white!important;
+        }
+        
+        .top-carousel .btn2{
+            border-radius: 20px;
+            background-color: rgb(255, 115, 0)!important;
+            color: white !important;
+            border: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .top-carousel .btn2:hover{
+            background-color: white!important;
+            color: black!important;
+        }
+    /* end style button */
+    
+    .top-carousel .carousel-indicators{
+        z-index: -1;
+    }
+
+    /* shadow for top carousel */
+    .top-carousel .carousel-item:before{
+        position:absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color:rgba(0, 0, 0, 0.4);
+        top:0;
+        left: 0;
+        z-index: 2;
+    }
+/* END OF TOP CAROUSEL */
+
+
+/* SOCIAL MEDIA TITLE */
+    /* FONT STYLE */
+    .social-media-title h2{
+        font-family: 'Francois One', sans-serif; 
+    }
+    /* A RANGE ON SOCIAL MEDIA */
+    .social-media-title hr{
+        margin-bottom: 2cm;        
+    }
+    /* BORDER BOTTOM */
+    .social-media-title .active {
+        border-bottom:3px solid ;
+        border-bottom-color: rgb(255, 115, 0);
+        margin-left: auto;
+        margin-right: auto;
+        width: 7cm;
+        margin-bottom: -18px;
+    }
+/* END SOCIAL MEDIA TITLE */
+
+
+/* SOCIAL MEDIA */
+    /* RANGE ON NEXT PAGE */
+    .social-media .col-md-3{
+        margin-bottom: 2cm;
+    }
+    /* instagram */
+        .instagram {
+            background-color: #ff0095;
+        }
+        .instagram:before {
+            color: #FFFFFF;
+            content: "\f16d";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .instagram:hover {
+            background-color: #940056;
+        }
+        .instagram:hover:before{
+            -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                    transform: rotate(360deg);
+        }  
+
+    /* pinterest */
+        .pinterest {
+            background-color:rgb(230,0,35);
+        }
+        .pinterest:before {
+            color: #FFFFFF;
+            content: "\f231";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .pinterest:hover {
+            background-color: rgb(156, 0, 23);
+        }
+        .pinterest:hover:before{
+            -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                    transform: rotate(360deg);
+        }
+
+    /* youtube */
+        .youtube {
+            background-color:rgb(255,0,0);
+        }
+        .youtube:before {
+            color: #FFFFFF;
+            content: "\f167";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .youtube:hover {
+            background-color: rgb(167, 0, 0);
+        }
+        .youtube:hover:before{
+            -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                    transform: rotate(360deg);
+        }
+        
+    /* facabook */
+        .social-media .facebook {
+            background-color: rgb(66,103,178);
+        }
+        .social-media .facebook:before {
+            color: #FFFFFF;
+            content: "\f09a";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .social-media .facebook:hover {
+            background-color: rgb(46, 72, 124);
+        }
+        .social-media .facebook:hover:before{
+            -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                    transform: rotate(360deg);
+        }  
+
+    .social-media .col-lg-3{
+        margin-bottom:1cm;
+    }
+/* END SOCIAL MEDIA */
+
+
+/* BOTTOM CAROUSEL TITLE */
+    /* FONT STYLE */
+    .bottom-carousel-title h2{
+        font-family: 'Francois One', sans-serif; 
+    }
+    /* A RANGE ON SOCIAL MEDIA */
+    .bottom-carousel-title hr{
+        margin-bottom: 3rem;        
+    }
+    /* BORDER BOTTOM */
+    .bottom-carousel-title .active {
+        border-bottom:3px solid ;
+        border-bottom-color: rgb(255, 115, 0);
+        width: 6cm;
+        margin-bottom: -18px;
+    }
+/* END BOTTOM CAROUSEL TITLE */
+
+/* BOTTOM CAROUSEL */
+    .bottom-carausel-inner .carousel-item.active,
+    .bottom-carausel-inner .carousel-item-next,
+    .bottom-carausel-inner .carousel-item-prev {
+        display: flex;
+    }
+    .bottom-carausel .carousel-item img {
+        height: 8cm; 
+        
+    }
+    .bottom-carausel .carousel-control-next, .bottom-carausel .carousel-control-prev{
+        margin-bottom: 3cm;
+        
+    }
+    .bottom-carausel2 .carousel-control-next, .bottom-carausel2 .carousel-control-prev{
+        margin-bottom: 3cm;
+        
+    }
+    
+/* END BOTTOM CAROUSEL */
+
+
+/* OUR MENU TITLE */
+    /* FONT STYLE */
+    .our-menu-title h2{
+        font-family: 'Francois One', sans-serif; 
+    }
+    /* A RANGE ON SOCIAL MEDIA */
+    .our-menu-title hr{
+        margin-bottom: 3rem;        
+    }
+    /* BORDER BOTTOM */
+    .our-menu-title .active {
+        border-bottom:3px solid ;
+        border-bottom-color: rgb(255, 115, 0);
+        width: 4cm;
+        margin-bottom: -18px;
+    }
+/* END OUR MENU TITLE */
+
+
+/* OUR MENU  */
+    /* COLOR FONT */
+    .col-lg-4 .table1{
+        color: white ! important;
+    }
+    /* COLOR OF TABLE 1 */
+    .col-lg-4 .table1{
+        background-color:rgb(255, 115, 0) ;
+    }
+/* END OUR MENU  */
+
+
+/* PARALLAX EFFECT */
+    .parallax {
+        
+        /* code font uppercase */
+        text-transform: uppercase;
+        color: white;
+       
+        /* The image used */
+        background-image: url("image/three.jpg");
+      
+        /* Set a specific height */
+        min-height: 450px;
+        
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* SHADOW ON IMAGE */
+    .parallax:before{
+        position:absolute;
+        content: '';
+        width: 100%;
+        height: 450px;
+        background-color:rgba(0, 0, 0, 0.8);      
+        left: 0;
+        
+    }
+
+    /* FONT STYLE*/
+        .parallax h1 {
+            color: white;
+            margin-top: 2cm;
+            z-index: 1;
+            font-family: 'Francois One', sans-serif;
+        }
+        .parallax p{
+            z-index: 1;    
+        }
+    /* END FONT STYLE */
+/* END PARALLAX EFFECT */
+
+
+
+/* GALERY */
+    /* FONT STYLE */
+    .our-gallery-title h2{
+        font-family: 'Francois One', sans-serif; 
+    }
+    /* A RANGE ON SOCIAL MEDIA */
+    .our-gallery-title hr{
+        margin-bottom: 15px;        
+    }
+    /* BORDER BOTTOM */
+    .our-gallery-title .active {
+        border-bottom:3px solid ;
+        border-bottom-color: rgb(255, 115, 0);
+        margin-left: auto;
+        margin-right: auto;
+        width: 7cm;
+        margin-bottom: -18px;
+    }
+    .filter-button-group {
+        padding: 15px;
+    }
+    
+    .btn-group .btn-link{
+        color: black!important;
+        font-size: 16px;
+        text-decoration: none ;
+        margin-bottom: 20px;
+        
+        
+    }
+    
+    .btn:focus{
+        outline: none;
+        box-shadow: none;
+    }
+
+    
+
+    .btn-group .btn.btn-link:hover, .btn-group .btn.btn-link:active,.btn-group .btn.btn-link.is-checked {
+        background-color: rgb(255, 115, 0);
+        color: white !important;
+        border: 0;
+        border-radius:50px ;
+        outline: none;
+        font-weight:bold ;
+        
+    }
+     
+    .grid-item {
+        margin-bottom: 15px;
+    }
+    
+    /* CSS Image Hover Effects: https://www.nxworld.net/tips/css-image-hover-effects.html */   
+    .img-thumbnail {
+        border: none;
+    }
+
+/* gallery */
+
+/* footer cape */
+.cape {
+    background-color:#202020; 
+    padding-top: 100px;
+    margin-top: 100px;
+    color: #FFFFFF;
+}
+
+.cape .heading {
+    font-size:larger;
+    font-family: 'Francois One', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid #e25111;
+    padding-bottom: 10px;
+    display: inline-block;
+
+}
+
+.cape .half_space {
+    margin-bottom: 25px;   
+}
+
+.cape hr{
+	margin:-9px 0 0;
+    border: 0;
+    border-top: 1px solid rgb(255, 255, 255);
+    height: 0;     
+}
+
+.cape p,a{
+    font-size: 14px;
+    text-transform:uppercase ;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.cape ul {
+    margin: 0;
+    padding-left: 0;    
+}
+ul.widget_links li{ display:inline-block; margin-bottom:10px; }
+
+ul.widget_links li i:before{
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:5px;
+	font-size:13px;
+    color:#e25111;
+}
+ul.widget_links li a:hover, ul.widget_links li a:focus, ul.widget_links li.active a{
+	color:#e25111;
+}
+
+
+
+/* ============== Footer =============== */
+
+.footer_column{ padding-bottom:40px; }
+.footer_column ul.widget_links li{ width:48%; }
+.footer_column p.icon, .footer_column p.address{ margin-left:25px; }
+.footer_column p.icon > i, .footer_column p.address > i{
+  width: 25px;
+  margin-left: -25px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+}
+.footer_column p.icon > i{ margin-bottom: -5px; }
+.newsletter{ margin-top:20px;}
+.newsletter .form-control{
+	height:40px;
+	border:none;
+	border-radius:30px;
+}
+.newsletter .btn-submit{
+  background: #e25111;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size:15px;
+  line-height:1;
+  margin-top: 5px;
+  
+}
+.button3{
+    padding: 12px 30px;
+    display: inline-block;
+    font-family: 'Francois One', sans-serif;
+    text-transform: uppercase;
+    }
+
+
+.newsletter .btn-submit:hover{
+  background: #fff;
+  color: #e25111;
+ }
+footer .copyright{
+	border-top:1px solid #757575;
+	padding:25px 0;
+}
+footer .copyright p{
+	display:inline-block;
+	float:left;
+	margin:0;
+	font-size:12px;
+}
+footer .copyright ul.social_icon {
+  float: right;
+  margin-top: -5px;
+}
+/* ============== Footer ends =============== */
+
+
+
+.newsletter .form-control {
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+}
+ul.social_icon{}
+ul.social_icon li {
+    display: inline-block;
+}
+ul.social_icon li a {
+    display: block;
+	 border:1px solid #fff;
+	 border-radius:50%;
+	 height:32px;
+	 width:32px;
+	 color:#fff;
+	 font-size:18px;
+	 line-height:32px;
+	 text-align:center;
+	 z-index:1;
+    position: relative;
+	 text-decoration: none;
+}
+ul.social_icon li a:after,
+ul.social_icon li.black a:after{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   content: '';
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+   box-sizing: content-box;
+  top:-1px;
+  left:-1px;
+  z-index: -1;
+ -webkit-transition: -webkit-transform 0.2s, opacity 0.3s;
+  -moz-transition: -moz-transform 0.2s, opacity 0.3s;
+  transition: transform 0.2s, opacity 0.3s;
+  
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  opacity: 0;
+}
+
+ul.social_icon li.black a.facebook:after,
+ul.social_icon li a.facebook:after{
+	background: #3b5998;
+	border:1px solid #3b5998;
+}
+ul.social_icon li.black a.twitter:after,
+ul.social_icon li a.twitter:after{
+	background: #55acee;
+	border:1px solid #55acee;
+}
+ul.social_icon li.black a.google:after,
+ul.social_icon li a.google:after{
+	background: #dd4b39;
+	border:1px solid #dd4b39;
+}
+ul.social_icon li.black a:hover, ul.social_icon li.black a:focus,
+ul.social_icon li a:hover, ul.social_icon li a:focus{
+	color:#fff;
+}	
+ul.social_icon li a:hover::after, ul.social_icon li a:focus::after, ul.social_icon li.active a:after,
+ul.social_icon li.black a:hover::after, ul.social_icon li.black a:focus::after{
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+ul.social_icon li.black a{
+	border-color:#111111;
+	color:#111111;
+}
+
+/* page header */
+#page_header{
+	background:url(image/4.png) no-repeat;
+	width:100%;
+	position:relative;
+	min-height:280px;
+	background-size:cover;
+	background-position:center center;
+	text-align:right;
+    margin-top: -20px;
+}
+#page_header:before{
+    position:absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+#page_header .page_title{
+	padding:22px 0;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+#page_header .page_title h2.title{
+	font-size:36px;
+	vertical-align:top;
+}
+#page_header .page_title h2.title, #page_header .page_title p{ color:#fff;}
+#page_header .page_title p{ margin-bottom:0;}
+#page_header .page_title h2.title {font-size: 26px;}
+#page_header{ min-height:300px;}
+#page_header .page_title h2.title{
+  font-size: 26px;
+  display:block;
+  margin-bottom:15px;
+}
+
+.heading{
+	border-bottom:2px solid #e25111;
+	padding-bottom:10px;
+	display:inline-block;
+}
+.heading_space{ margin-bottom:40px; }
+
+/* ONLY DISPLAY PHONE */
+    @media (max-width: 575.98px){
+
+        /*SIZE AND POSITION OF CAROUSEL  */
+        .top-carousel .carousel-item {
+            height: 47rem;    
+        }
+        .top-carousel .carousel-item > img {
+            position: absolute;
+            top: 0;
+            left: -8rem;
+            min-width: 200%;
+            height: 47rem;
+        }
+
+        /* social media */
+        /* A RANGE ON SOCIAL MEDIA */
+        .social-media-title hr{
+            margin-bottom: 1cm;        
+        }
+        
+    }
+/* END DISPLAY PHONE */
+
+
+/* DISPLAY LANDSCAPE PHONE */
+    @media (max-width: 767.98px){
+        .bottom-carausel-inner .carousel-item > div {
+            display: none;
+        }
+        .bottom-carausel-inner .carousel-item > div:first-child {
+            display: block;
+        }
+
+        /* EFECT FOR CARAUSEL */
+        .top-carousel .carousel-item:before{
+            position:absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            background-color:rgba(0, 0, 0, 0.6);
+            top:0;
+            left: 0;
+            z-index: 1;
+        }
+        
+    }
+
+    
+/* END DISPLAY LANDSCAPE PHONE */    
+    
+    
+
+/* medium and up screens */
+    @media (min-width: 768px) {
+        
+        .top-carousel .carousel-item{
+            height: 29rem;
+        }
+        .bottom-carausel-inner .carousel-item-end.active,
+        .bottom-carausel-inner .carousel-item-next {
+          transform: translateX(50%);
+        }
+        
+        .bottom-carausel-inner .carousel-item-start.active, 
+        .bottom-carausel-inner .carousel-item-prev {
+          transform: translateX(-50%);
+        }
+    }
+    
+    .bottom-carausel-inner .carousel-item-end,
+    .bottom-carausel-inner .carousel-item-start { 
+      transform: translateX(0);
+    }    
+/* end medium and up screens */
+
+/* MAXIMAL table SCREEN */
+@media (max-width: 991.98px) {
+
+    /* BOTTOM CAROUSEL */
+    #menuu {
+        margin-top: 4rem;
+    }
+
+    /* OUR MENU TITLE */
+    .our-menu-title{
+        margin-top: 3rem;
+    }
+    /* top-carausel */
+        .top-carousel .carousel-caption { 
+            margin-bottom: 12rem;
+        }
+
+    /* /top-caraousel */
+    .social-media-title {
+        margin-top: 1cm;
+    }
+     .top-carousel .carousel-caption { 
+        margin-bottom: 4rem;
+    }
+}
+
+
+
+
+/* DISPLAY ON DEKSTOP */
+@media (min-width: 992px) {
+    /* TOP NAVBAR */
+        /* POSITION ON TOP NABAR */
+            .atass {
+                padding: 0.5px;
+                z-index: 99;
+            }
+            .topnavbar{
+            margin-bottom: 20px;
+            } 
+        /* END POSITION ON TOP NABAR */      
+    /*END TOP NAVBAR */
+
+    /* CARAOUSEL */
+    .top-carousel .carousel-caption { 
+        margin-bottom: 8rem;
+    }
+
+
+
+    /* TOP CAROUSEL */
+        /*SIZE */
+            .top-carousel .carousel{
+                margin-top: -20PX;
+            }
+            .top-carousel .carousel-item{
+                height: 39rem;
+            }
+            .top-carousel .carousel-item  .video {
+                height: 39rem;
+            }
+          
+    /* END TOP CAROUSEL */        
+
+
+    /* BOTTOM NAVABAR */
+        /* EFECT HOVER ON BOTTOM NAVBAR */
+            .bottom-navbar .collapse .nav-link{
+                padding: .25rem 0;
+                color: rgb(255, 115, 0);
+                background-color: transparent;
+                border-bottom: .25rem solid transparent;
+            }
+
+            .bottom-navbar .collapse .nav-link:hover{
+                border-bottom-color: rgb(255, 115, 0)!important;
+                color: rgb(255, 115, 0)!important;
+            }
+
+            .bottom-navbar .collapse .nav-link + .nav-link {
+                margin-left: 1rem;
+            }
+            
+            .bottom-navbar .collapse .active {
+                border-bottom-color: rgb(255, 115, 0)!important;
+                color: rgb(255, 115, 0)!important;
+            }
+        /* END EFECT HOVER ON BOTTOM NAVBAR */
+    /* END BOTTOM NAVABAR */        
+
+
+    /* INFO PANEL */
+        /* POSITION OF INFO PANEL */
+        .container .penting{
+            margin-top:-40px ;
+        }
+
+        /* receptacle OF INFO PANEL */
+        .info-panel{
+            box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+            border-radius: 15px;
+            background-color:rgba(0, 0, 0,0.6);
+            margin-top:-100px;
+            padding:10px;
+            z-index: 3;
+        }
+
+        /* FONT STYLE OF INFO PANEL */
+        .info-panel p{
+            font-size:16px;
+            color:rgb(255, 255, 255);
+            margin-top:10px;
+            font-weight: 200;
+        }
+
+        /* HOVER EFECT OF A ON INFO PANEL */
+            .info-panel a{   
+                position: relative;
+                display: inline-block;
+                font-size: 30px;
+                font-weight: 800;
+                color: rgb(255, 255, 255) !important;
+                font-family: 'Francois One', sans-serif;
+                text-transform: uppercase;
+                text-decoration: none;
+                overflow: hidden;
+                background: linear-gradient(to right, rgb(255, 115, 0) 50%, rgb(255, 255, 255) 50%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-size: 200% 100%;
+                background-position: 100%;
+                transition: background-position 275ms ease;
+            }
+                
+            .info-panel a:hover,
+            .info-panel a:focus{
+                background-position: 0 100%;
+                color: rgb(255, 115, 0) !important;
+            }
+        /*END HOVER EFECT OF A ON INFO PANEL */
+        
+        /*POSITION OF A ON INFO PANEL  */
+        .info-panel a{
+            position: relative; 
+            top: 10px ;
+        }
+    
+    /* END INFO PANEL */   
+    
+    /* PARRALAX EFFECT */
+        /* font style */
+        .parallax p{
+        padding-left: 5cm;
+        padding-right:5cm ;
+        }
+    /* end parralax effect */
+
+    /* gallery */
+    .container .row .img-fluid {
+        height: 250px;
+    }
+
+}
+/* END DISPLAY ON DEKSTOP */
